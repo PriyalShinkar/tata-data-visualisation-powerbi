@@ -1,64 +1,133 @@
-# Executive Retail Analytics Dashboard
+# Retail Sales Dashboard (Power BI)
 
-A business intelligence and data visualization project built in Power BI as part of the Tata Data Visualisation Virtual Experience Program by Forage.
+## Overview
 
-## Business Scenario
+This project was created as part of the **Tata Group Data Visualization Virtual Experience Program on Forage**.
 
-An online retail company wanted to better understand its sales performance, customer behavior, and global demand patterns in order to support future expansion decisions.
+The objective of the project was to analyze retail sales data and create interactive Power BI dashboards to help the **CEO and CMO** understand business performance, customer trends, and expansion opportunities.
 
-The objective was to transform raw transactional data into executive-level insights for strategic decision-making.
+The dashboard focuses on:
 
-## Objectives
+* Revenue trends over time
+* Country-wise sales performance
+* Top customers by revenue
+* Global product demand analysis
 
-The analysis focused on answering key business questions such as:
+---
 
-- How does revenue change throughout the year?
-- Which countries generate the highest revenue?
-- Who are the highest-value customers?
-- Which regions show strong product demand and expansion potential?
+# Business Questions Solved
 
-## Data Preparation
+## Q1. Monthly Revenue Trend for 2011
 
-To improve data quality before analysis:
+### Objective
 
-- Invalid negative quantities were removed
-- Negative unit prices were excluded
-- Revenue metrics were calculated using transactional data
+Analyze monthly revenue trends in 2011 to identify seasonality and business growth patterns.
 
-## Dashboard Highlights
+### Insights
 
-### Revenue Trend Analysis
-Analyzed monthly revenue patterns for 2011 to identify seasonality and business fluctuations.
+* Revenue showed fluctuations during the early months of 2011.
+* Sales increased significantly during the final quarter of the year.
+* November recorded the highest revenue, indicating strong holiday season demand.
 
-### Country Performance Analysis
-Compared revenue and quantity sold across the top-performing countries outside the United Kingdom.
+### Visualization Used
 
-### Customer Revenue Analysis
-Identified the top revenue-generating customers to support customer retention strategies.
+* Line Chart
 
-### Global Demand Visualization
-Used geographical analysis to identify regions with high product demand and potential expansion opportunities.
+---
 
-## Skills Demonstrated
+## Q2. Top Performing Countries (Excluding United Kingdom)
 
-- Business Intelligence
-- Data Cleaning
-- Data Visualization
-- Power BI Dashboarding
-- Executive Reporting
-- Analytical Thinking
+### Objective
 
-## Tools & Technologies
+Identify countries with the highest revenue and quantity sold to support international expansion decisions.
 
-- Power BI
-- Excel
-- DAX
-- Data Modeling
+### Insights
 
-## Project Status
+* Netherlands, EIRE, Germany, and France generated strong revenue outside the UK.
+* These countries also showed high product demand.
+* The results indicate strong expansion opportunities in European markets.
 
-Dashboard visuals and screenshots will be uploaded after final completion.
+### Visualization Used
 
-## Author
+* Clustered Bar Chart
 
-Priyal Shinkar
+---
+
+## Q3. Top 10 Customers by Revenue
+
+### Objective
+
+Find the highest-value customers contributing most to company revenue.
+
+### Insights
+
+* A small group of customers generated a significant portion of total revenue.
+* Revenue contribution among customers was uneven, highlighting the importance of key accounts.
+* Customer retention strategies for high-value customers can improve profitability.
+
+### Visualization Used
+
+* Column Chart
+
+---
+
+## Q4. Product Demand by Country
+
+### Objective
+
+Visualize global product demand geographically.
+
+### Insights
+
+* European countries showed the highest concentration of demand.
+* Australia and parts of Asia also demonstrated notable customer activity.
+* The map helped identify regions with strong sales potential.
+
+### Visualization Used
+
+* Map Visualization
+
+---
+
+# Data Cleaning & Preparation
+
+The following preprocessing steps were performed before visualization:
+
+* Removed invalid revenue values
+* Filtered out negative quantities and returns
+* Excluded United Kingdom where required
+* Converted date fields into proper date format
+* Created revenue-based visual analysis
+
+---
+
+# Tools & Technologies
+
+* Power BI Desktop
+* Microsoft Excel
+* Data Visualization
+* Business Analytics
+
+---
+
+# Files Included
+
+* `forage_tata_dashboard.pbix` → Power BI dashboard file
+* `Online Retail Data Set.xlsx` → Dataset used for analysis
+
+---
+
+# Key Skills Demonstrated
+
+* Data Cleaning
+* Data Visualization
+* Business Insight Generation
+* Dashboard Design
+* Trend Analysis
+* Power BI Reporting
+
+---
+
+# Author
+
+**Priyal Shinkar**
